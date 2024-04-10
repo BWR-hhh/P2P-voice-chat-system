@@ -22,3 +22,6 @@ This is a peer-to-peer (P2P) voice chat application that allows users to create 
 ## Installation
 
 1. Clone the repository:
+```
+git clone https://github.com/your-username/p2p-voice-chat.git
+```
