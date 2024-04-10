@@ -23,7 +23,7 @@ This is a peer-to-peer (P2P) voice chat application that allows users to create 
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/p2p-voice-chat.git
+git clone https://github.com/BWR-hhh/P2P-voice-chat-system.git
 ```
 2. Install the required dependencies:
 ```
@@ -56,17 +56,13 @@ python user.py
 
 - `server.py`: The main server script that handles client connections and manages chat rooms.
 - `room_server.py`: The script for the individual room servers that handle audio communication within each chat room.
-- `user1.py`: The client application script that provides the user interface and handles audio capture and playback.
+- `user.py`: The client application script that provides the user interface and handles audio capture and playback.
 - `client.py`: The script containing the client-side logic for audio communication and GUI interactions.
 
 ## Notes
 
-- Make sure to update the `HOST` and `PORT` variables in the scripts to match your network configuration.
+- Make sure to update the `HOST` and `PORT` variables in the scripts to match your network configuration. (especially for server.py & user.py)
 - The application uses the default input and output audio devices. If you want to use different devices, modify the `input_device_index` and `output_device_index` variables in the `client_handler` class in `client.py`.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
